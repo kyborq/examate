@@ -2,7 +2,7 @@
 
 # Examate
 
-Quickly create an exam test to check the remaining knowledge of students and create a table of grades ;)
+Examate simplifies the process of crafting and grading exams, enabling educators to quickly evaluate student knowledge and generate organized grade tables with ease
 
 ## Screenshots
 
