@@ -1,0 +1,42 @@
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 32px;
+  width: 90px;
+  border: none;
+  background-color: #f2f5f9;
+  color: #096afb;
+  fill: #096afb;
+  border-radius: 26px;
+  cursor: pointer;
+  transition: 150ms;
+  border-radius: 16px;
+  flex: none;
+  background: linear-gradient(79deg, #e127ff -9.67%, #106cf6 113.73%);
+}
+
+.Button.Primary {
+  color: #ffffff;
+  fill: #ffffff;
+  background-color: #096afb;
+}
+
+.Button.Disabled {
+  cursor: default;
+  background-color: #f2f5f9;
+  color: #a6aebb;
+  fill: #a6aebb;
+}
+
+.Button:not(.Disabled):active {
+  transform: scale(0.98);
+  transition: 150ms;
+}
+
+.Button.Small {
+  padding: 14px;
+}

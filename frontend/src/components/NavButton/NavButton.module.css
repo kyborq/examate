@@ -1,0 +1,31 @@
+.NavButton {
+  text-decoration: none;
+  color: black;
+  height: 48px;
+  padding: 0 24px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #adb5bd;
+  border-radius: 32px;
+  display: flex;
+  transition: 150ms;
+  stroke: #adb5bd;
+  align-items: center;
+  gap: 16px;
+}
+
+.NavButton:hover {
+  transition: 150ms;
+  background-color: #f8f9fa;
+}
+
+.NavButton:active {
+  transform: scale(0.98);
+  transform: 150ms;
+}
+
+.NavButton.Current {
+  background-color: #f2f5f9;
+  color: #096afb;
+  stroke: #096afb;
+}

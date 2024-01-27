@@ -1,0 +1,23 @@
+.Field {
+  display: flex;
+  background-color: #e9ecef;
+  border-radius: 24px;
+  align-items: center;
+  padding: 8px;
+  padding-left: 16px;
+  user-select: none;
+}
+
+.Label {
+  font-weight: bold;
+}
+
+.Input {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  flex: 1;
+  font-weight: bold;
+  width: 100px;
+}

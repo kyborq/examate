@@ -1,0 +1,27 @@
+.ActionButton {
+  cursor: pointer;
+  border-radius: 24px;
+  display: flex;
+  width: 212px;
+  height: 40px;
+  padding: 16px 0px;
+  justify-content: center;
+  background: linear-gradient(79deg, #e127ff -9.67%, #106cf6 113.73%);
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 150ms;
+  box-shadow: -4px 0px 16px 0px rgba(104, 39, 241, 0.15),
+    4px 0px 24px 0px rgba(9, 106, 251, 0.15);
+}
+
+.ActionButton:active {
+  transform: scale(0.98);
+  transition: 150ms;
+}

@@ -1,0 +1,6 @@
+.Side {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  /* gap: 4px; */
+}
